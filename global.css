@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'uniwind';
+
+@theme {
+  --font-heading: 'Outfit-Bold';
+  --font-body: 'Poppins-Regular';
+  --color-primary: #7d3bed;
+  --color-primary-01: #7d3bed;
+  --color-primary-02: #f471b7;
+  --color-secondary: #b39ef5;
+  --color-secondary-01: #b39ef5;
+  --color-secondary-02: #f9b8dd;
+  --color-border: #d2d2d2;
+  --color-border-01: #d2d2d2;
+  --color-border-02: #e7e7e7;
+}
+
+@utility text-display { font-size: 32px; line-height: 38px; font-weight: 700; }
+@utility text-h1 { font-size: 24px; line-height: 30px; font-weight: 700; }
+@utility text-h2 { font-size: 20px; line-height: 26px; font-weight: 600; }
+@utility text-h3 { font-size: 18px; line-height: 24px; font-weight: 600; }
+@utility text-body-lg { font-size: 16px; line-height: 24px; font-weight: 500; }
+@utility text-body { font-size: 14px; line-height: 22px; font-weight: 400; }
+@utility text-caption { font-size: 12px; line-height: 18px; font-weight: 500; }
